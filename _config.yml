@@ -1,0 +1,88 @@
+title: mucoze blog
+description: 
+author: Mücahid KIR
+
+logo: /assets/img/logo.png
+
+footer-links:
+  dribbble:
+  email: mucahidkr@gmail.com
+  facebook:
+  flickr:
+  github: mucoze
+  instagram:
+  linkedin: 
+  pinterest:
+  rss: rss # just type anything here for a working RSS icon
+  twitter: muc0ze
+  keybase: 
+  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  youtube: # channel/<your_long_string> or user/<user-name>
+  googleplus: # anything in your profile username that comes after plus.google.com/
+
+social:
+  name: Mücahid KIR
+  links: 
+    - https://www.twitter.com/muc0ze
+    - https://github.com/mucoze
+
+disqus: mcahidkir
+
+google_analytics: 
+
+paginate: 5
+
+excerpt_separator: <!--more-->
+
+url: 
+baseurl: ""
+
+show_downloads: false
+future: true
+
+defaults:
+  - scope:
+      path: ''
+      type: posts
+    values:
+      layout: post
+      comments: true
+    values:
+      layout: default
+      comments: true
+  - scope:
+      path: ''
+      type: pages
+    values:
+      layout: page
+      comments: false
+
+timezone: Turkey
+lang: en-US
+
+gems:
+  - jekyll-seo-tag
+  - jekyll-mentions
+  - jemoji
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-avatar
+  - jekyll-github-metadata
+
+sass:
+  style: compressed
+  sass_dir: hacker/_sass
+includes_dir: hacker/_includes
+layouts_dir: hacker/_layouts
+
+theme: jekyll-theme-hacker
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
+  - hacker
