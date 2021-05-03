@@ -11,7 +11,7 @@ Bağlı listeler, veri yapıları konusudur ve bir biriyle ilişkili veriler üz
 Kısaca bağlı listelerin ne olduğundan bahsettikten sonra, kendine dönüşlü yapıyı pratikte inceleyelim:
 
 ```c
-struct linked_list{
+struct node{
 	int data;
 	linked_list *next;
 };
