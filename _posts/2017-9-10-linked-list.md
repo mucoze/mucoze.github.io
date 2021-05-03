@@ -13,7 +13,7 @@ Kısaca bağlı listelerin ne olduğundan bahsettikten sonra, kendine dönüşl�
 ```c
 struct node{
 	int data;
-	linked_list *next;
+	node *next;
 };
 ```
 Görüldüğü gibi ‘node’ adında bir yapımız var ve içerisinde, ‘data’ adında int türünden bir değişken ile kendi türünden bir yapı gösteren ‘next’ adında işaretçi bulunuyor. Bu yapının içerisine ihtiyaca göre farklı veri tiplerinde değişkenler de tanımlayabiliriz. Biz örneklemede basit olması açısından sadece bir adet değişken kullandık. 
