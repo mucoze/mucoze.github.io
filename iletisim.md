@@ -1,7 +1,7 @@
 ---
 layout: page
-title: iletişim
-permalink: /iletisim/
+title: contact
+permalink: /contact/
 seo:
   type: person
 ---
