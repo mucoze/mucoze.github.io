@@ -1,7 +1,7 @@
 ---
 layout: page
-title: kategoriler
-permalink: /kategoriler/
+title: categories
+permalink: /categories/
 ---
 
 <div>
